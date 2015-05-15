@@ -1,0 +1,4 @@
+@include font-face("Lato Bold", font-files("../../../fonts/lato-bold/Lato-Bold.ttf","../../../fonts/lato-bold/Lato-Bold.otf","../../../fonts/lato-bold/Lato-Bold.woff","../../../fonts/lato-bold/Lato-Bold.svg"));
+@include font-face("Lato Black", font-files("../../../fonts/lato-black/Lato-Black.ttf", "../../../fonts/lato-black/Lato-Black.woff", "../../../fonts/lato-black/Lato-Black.svg", "../../../fonts/lato-black/Lato-Black.otf"));
+@include font-face("Lato Light", font-files("../../../fonts/lato-light/Lato-Light.ttf", "../../../fonts/lato-light/Lato-Light.woff", "../../../fonts/lato-light/Lato-Light.svg", "../../../fonts/lato-light/Lato-Light.otf"));
+@include font-face("Lato Regular", font-files("../../../fonts/lato-regular/Lato-Regular.ttf", "../../../fonts/lato-regular/Lato-Regular.woff", "../../../fonts/lato-regular/Lato-Regular.svg", "../../../fonts/lato-regular/Lato-Regular.otf"));

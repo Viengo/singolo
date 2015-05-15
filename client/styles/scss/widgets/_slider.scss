@@ -1,0 +1,28 @@
+.slider{
+    width:100%;
+    border-bottom: 6px solid #ea676b;
+    background: #eb5055;
+    @include user-select(none);
+    .royalSlider {
+        width: 940px!important;
+        height: 595px;
+        margin: 0 auto;
+        @include box-sizing(border-box);
+        .rsOverflow.grab-cursor {
+            margin: 0 auto;
+            background-color: #eb5055!important;
+            .rsSlide {
+                .rsImg .rsMainSlideImage {
+                    width: 797px!important;
+                    margin:auto!important;
+                }
+            }
+        }
+    }
+    .rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs {
+        background: #eb5055!important;
+    }
+    .rsDefault .rsArrow {
+        width: 0;
+    }
+}

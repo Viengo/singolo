@@ -1,0 +1,38 @@
+footer {
+    background-color: #303441;
+    color: #666d89;
+    @include user-select(none);
+    .container {
+        padding: 0 40px;
+        .rights {
+            float: left;
+            font-family: "Lato Regular";
+            font-size: 0;
+            li {
+                display: inline-block;
+                font-size: 12px;
+                line-height: 76px;
+                color: #666d89;
+                &:after {
+                    display: inline-block;
+                    width: 2px;
+                    height: 2px;
+                    margin: 0 3px 2px 3px;
+                    background-color: #3d4253;
+                    content: "";
+                    @include border-radius(50%);
+                }
+                &:last-child {
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .social {
+        float: right;
+        margin-top: 22px;
+    }
+
+}

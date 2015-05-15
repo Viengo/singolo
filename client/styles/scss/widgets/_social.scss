@@ -1,0 +1,50 @@
+.social {
+    font-size: 0;
+    @include user-select(none);
+    li {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+        border: 1px solid #666d89;
+        @include border-radius(50%);
+        &:hover {
+            width: 28px;
+            height: 28px;
+            border: 2px solid #666d89;
+            a {
+                @include opacity(1);
+            }
+        }
+        a {
+            display: block;
+            height: 100%;
+            background-image: url(../../images/social/social.png);
+            background-repeat: no-repeat;
+            @include transition-property(background-image);
+            @include transition-duration(300ms);
+            @include opacity(0.8);
+        }
+        &:first-child {
+            a {
+                @extend .social-fb;
+            }
+        }
+        &:nth-child(2) {
+            a {
+                @extend .social-gl;
+            }
+        }
+        &:nth-child(3) {
+            a {
+                @extend .social-tw;
+            }
+        }
+        &:last-child {
+            a {
+                @extend .social-in;
+            }
+        }
+
+    }
+}
