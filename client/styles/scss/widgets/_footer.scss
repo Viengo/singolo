@@ -13,7 +13,7 @@ footer {
                 font-size: 12px;
                 line-height: 76px;
                 color: #666d89;
-                &:after {
+                &::after {
                     display: inline-block;
                     width: 2px;
                     height: 2px;
@@ -23,7 +23,7 @@ footer {
                     @include border-radius(50%);
                 }
                 &:last-child {
-                    &:after {
+                    &::after {
                         display: none;
                     }
                 }

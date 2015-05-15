@@ -8,6 +8,9 @@
         margin-right: 8px;
         border: 1px solid #666d89;
         @include border-radius(50%);
+        &:last-child {
+            margin: 0;
+        }
         &:hover {
             width: 28px;
             height: 28px;

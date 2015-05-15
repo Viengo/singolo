@@ -1123,7 +1123,7 @@ header nav.container ul li::after {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-header nav.container ul li:last-child:after {
+header nav.container ul li:last-child::after {
   display: none;
 }
 header nav.container ul li a {
@@ -1201,6 +1201,9 @@ header nav.container a span {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
+.social li:last-child {
+  margin: 0;
+}
 .social li:hover {
   width: 28px;
   height: 28px;
@@ -1251,7 +1254,7 @@ footer .container .rights li {
   line-height: 76px;
   color: #666d89;
 }
-footer .container .rights li:after {
+footer .container .rights li::after {
   display: inline-block;
   width: 2px;
   height: 2px;
@@ -1264,7 +1267,7 @@ footer .container .rights li:after {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-footer .container .rights li:last-child:after {
+footer .container .rights li:last-child::after {
   display: none;
 }
 footer .social {

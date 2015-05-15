@@ -25,7 +25,7 @@ header {
                         @include border-radius(50%);
                     }
                     &:last-child {
-                        &:after {
+                        &::after {
                             display: none;
                         }
                     }
