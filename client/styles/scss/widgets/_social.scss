@@ -28,7 +28,7 @@
             @include transition-duration(300ms);
             @include opacity(0.8);
         }
-        &:first-child {
+        &:nth-child(1){
             a {
                 @extend .social-fb;
             }
@@ -43,7 +43,7 @@
                 @extend .social-tw;
             }
         }
-        &:last-child {
+        &:nth-child(4) {
             a {
                 @extend .social-in;
             }
